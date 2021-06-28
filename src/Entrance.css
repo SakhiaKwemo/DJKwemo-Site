@@ -1,0 +1,187 @@
+.EntranceColumn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+}
+
+.EntranceRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+}
+
+.EntranceRow2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.ML4Box {
+    display: flex;
+    width: 45%; 
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ML4Box h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Russo One', sans-serif;
+    color: white; 
+    margin: 80px
+}
+
+.ML4Box text {
+    font-size: 20px; 
+    font-family: 'Russo One', sans-serif;
+    color: white; 
+    margin: 40px
+}
+
+.ML4Box button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254); 
+    border-style: solid; 
+    border-width: 3px; 
+    font-size: 20px; 
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.DJKBox {
+    display: flex;
+    width: 45%; 
+    height: 800px; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.DJKBox h1 {
+    font-size: 40px; 
+    text-decoration: underline;
+    font-family: 'Russo One', sans-serif;
+    color: white; 
+    margin: 80px
+}
+
+.DJKBox text {
+    font-size: 20px; 
+    font-family: 'Russo One', sans-serif;
+    color: white; 
+    margin: 40px
+}
+
+.DJKBox button {
+    background-color: rgb(48, 3, 48);
+    border-radius: 10px;
+    border-color: pink; 
+    border-style: solid; 
+    border-width: 3px; 
+    font-size: 20px; 
+    font-family: 'Russo One', sans-serif;
+    color: pink;
+}
+
+.imageBackGround {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/Sorry Not Sorry.png");
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 700px;
+    border-radius: 45px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    margin: 50px;
+    box-shadow: 0 0 45px rgb(216, 213, 213); 
+}
+
+.imageBox2 {
+    border-radius: 115px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    height: 235px; 
+    width: 235px; 
+}
+
+.imageBox3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px; 
+    width: 235px; 
+    border-radius: 115px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+  }
+
+  .appVideo {
+      width: 700px; 
+      height: 1000px;
+      margin-right: -170px;
+  }
+
+  .appLinks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 100px;
+      height: 100px;
+  }
+
+  .logoPhoto1 {
+      height: 300px;
+      width: 300px;
+      margin-right: 30px
+  }
+
+  .logoPhoto2 {
+    height: 370px;
+    width: 370px
+}
+
+  .phoneLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding-right: 150px;
+}
+
+  .arrowAnimation {
+    position: absolute;
+    animation-name: down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down {
+    0%   {    bottom: -30px; }
+    25% {    bottom: 5px; }
+    50%   {    bottom: -30px; }
+    75% {    bottom: 5px; }
+    100%   {    bottom: -30px; }
+}

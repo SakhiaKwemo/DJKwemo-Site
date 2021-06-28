@@ -1,0 +1,40 @@
+.exitText {
+    position:absolute;
+    top: 11.5%; 
+    left: 23.5%;
+    color: rgb(179, 176, 176);
+    font-size: 70px;
+    z-index: 1;
+    font-family: 'Russo One', sans-serif;
+    animation-name: hit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.exitButton {
+    cursor: pointer;
+    position:absolute;
+    top: 0.5%; 
+    left: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 150px;
+}
+
+.exitButton img {
+    height: 110px;
+    width: 230px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    filter: brightness(0.7);
+}
+
+.exitText:hover {
+    color: white;
+    animation-duration: 0s;
+}
