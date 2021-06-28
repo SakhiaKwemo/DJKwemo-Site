@@ -1,0 +1,145 @@
+#MusicBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headingBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%; 
+    height: 100px;
+    margin-top: 30px;
+}
+
+.musicTitle {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 125px;
+}
+
+.musicTitle text {
+    font-size: 65px; 
+    font-weight: bold; 
+    text-decoration: underline; 
+    font-family: 'Russo One', sans-serif;
+    color:rgb(233, 135, 178); 
+}
+
+.musicButton {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 125px;
+}
+
+.musicButton div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(148, 21, 80) 
+
+}
+
+.musicButton text {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+
+.streamBox3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-style: solid; 
+    border-color: rgb(233, 135, 178); 
+    border-width: 5px;
+    width: 100%; 
+    height: 100%;
+}
+
+.displayBoxB {
+    background-color: rgb(59, 4, 22);
+    border-radius: 10px;
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.choiceBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.choiceOptionB {
+    background-color: rgb(138, 14, 56);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(233, 135, 178); 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%; 
+    width: 20%; 
+}
+
+.textOption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%; 
+    width: 80%; 
+}
+.choiceBox div text {
+    font-size: 30px; 
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+
+.choiceOptionB:hover {
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(233, 135, 178); ;
+}
