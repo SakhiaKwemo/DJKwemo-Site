@@ -1,0 +1,131 @@
+.diffColumn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.diffColumn p{
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+    width: 100%;
+    height: 100px;
+    border-bottom-color: white; 
+    border-bottom-style: solid; 
+    border-bottom-width: 2px;
+}
+
+.diffRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    height: 75px;
+    padding-left: 40px;
+    margin-bottom: 18px;
+}
+
+.diffRow text{
+    font-size: 28px;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.barsBox {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.speedBox {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.levelBox {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.diffSelect{                                  /*overall track*/
+    width: 25px;
+    height: 25px;
+    background: rgb(238, 238, 238);
+    border-radius: 135px;
+    overflow: hidden;
+    margin-right: 20px; 
+}
+
+.NextButton2{
+    cursor: not allowed; 
+    position: fixed; 
+    top: 21%; 
+    right: 29%;
+    color: gray; 
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    height: 60px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 50px;
+    border-color: gray;
+    border-style: solid; 
+    border-width: 3px;
+    background-color: black;
+}
+
+.NextButton{
+    position: fixed; 
+    top: 21%; 
+    right: 29%;
+    color: gold; 
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    height: 60px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 50px;
+    border-color: gold;
+    border-style: solid; 
+    border-width: 3px;
+    background-color: black;
+    animation-name: hit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.NextButton:hover{
+    color: black; 
+    border-color: black;
+    background-color: gold;
+    animation-duration: 0s;
+}
+
+@keyframes hit {
+    0%   {    opacity: 100%; }
+    25% {    opacity: 75%; }
+    50%   {    opacity: 100%; }
+    75% {    opacity: 75%; }
+    100%   {    opacity: 100%; }
+}
+
