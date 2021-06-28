@@ -1,0 +1,399 @@
+.firstRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%; 
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+#inputBox5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-bottom-style: solid; 
+    border-bottom-width: 5px; 
+    border-bottom-color: rgb(233, 135, 178);
+    padding-bottom: 25px;
+}
+
+#inputBox5 text{
+    font-size: 35px;
+    color: rgb(233, 135, 178);
+    font-family: 'Russo One', sans-serif;
+}
+
+.secondRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: 125px;
+}
+
+.thirdRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.screenshotBox {
+    height: 500px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 40px; 
+}
+
+.diaryBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 50px; 
+    padding-right: 50px; 
+    height: 600px; 
+    width: 100%; 
+    color: white;
+    border-width: 0.5px;
+    border-color: white; 
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.diarySmallBox {
+    display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left-width: 2px;
+    border-left-color:white;
+    border-left-style: solid;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.diaryBox h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    font-family: 'Russo One', sans-serif;
+}
+
+.diaryBox p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.videoRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 320px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.yearButton {
+    background-color: brown;
+    color: pink; 
+    width: 200px;
+    height: 50px; 
+    border-radius: 5px;
+}
+
+.chartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%; 
+    height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(57, 1, 59);
+    border-color: white;
+    border-style: solid;
+    border-width: 2px; 
+    z-index: 3;
+}
+
+.graphHead {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.legendStyle {
+    font-size: 15px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.movieContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%; 
+    height: 100%;
+    background-color: rgb(255, 0, 225);
+}
+
+.teleImage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.movieImage {
+    height: 330px;
+    position: absolute;
+    top: 175px;
+    right: -245px; 
+    z-index: 2;
+}
+
+.TVButton {
+    position: absolute;
+    height: 70px; 
+    width: 90px;
+    border-radius: 20px;
+    background-color: rgb(202, 191, 143);
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    top: 200px;
+    right: 118px;
+    z-index: 10;
+    font-size: 18px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: black;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button {
+    0%   {    opacity: 100%; }
+    25% {    opacity: 70%; }
+    50%   {    opacity: 100%; }
+    75% {    opacity: 70%; }
+    50%   {    opacity: 100%; }
+}
+
+.youtubeVid {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 50px;
+    z-index: 5;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(78, 73, 73);
+}
+
+.shadow {
+    height: 380px;
+    width: 60px;
+    background-color: rgb(59, 4, 22);
+    position: absolute;
+    z-index: 3;
+    right: 738px;
+}
+
+.columnIWB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rowIWB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.iwbImage {
+    height: 130px; 
+    margin: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white; 
+    border-width: 2px;
+}
+
+.iwbImageChosen {
+    height: 130px; 
+    margin: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: pink; 
+    border-width: 5px;
+    box-shadow: 0 0 45px rgb(233, 135, 178); 
+}
+
+#dropdown-basic-button {
+    color: rgb(233, 135, 178);  
+    background-color: rgb(57, 1, 59);
+    font-family: 'Russo One', sans-serif;
+    height: 50px; 
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(233, 135, 178); 
+}
+
+#dropdown-basic-option {
+    color: rgb(233, 135, 178);  
+    font-family: 'Russo One', sans-serif;
+    height: 50px; 
+}
+
+#dropdown-basic-option {
+    background-color: rgb(57, 1, 59);
+}
+
+#dropdownBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    padding-left: 150px;
+}
+
+#textTitle2 {
+    color:rgb(255, 157, 199);; 
+    font-size: 35px; 
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+}
+
+#textTitle3 {
+    color:rgb(255, 157, 199);; 
+    font-size: 35px; 
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.beatBox {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px;
+}
+
+.IwbTag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(41,6,38);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: pink;
+    z-index: 6;
+    text-shadow: 0 0 45px rgb(233, 135, 178);
+}
+
+.IwbTag text{
+    font-size: 40px;
+    color: white;
+    font-family: 'Bangers', cursive; 
+    margin-right: 40px;
+}
+
+.popcornImage {
+    z-index: 1;
+    margin-right: -350px;
+    opacity: 30%;
+}
+
+.popcornBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -200px;
+}
+
+.smallPopcorn1 {
+    height: 140px;
+    position: absolute;
+    z-index: 5;
+    right: 120px; 
+    top: 490px;
+}
+
+.smallPopcorn2 {
+    height: 140px;
+    position: absolute;
+    z-index: 5;
+    right: 272px; 
+    top: 490px;
+}
+
+.smallPopcorn3 {
+    height: 140px;
+    position: absolute;
+    z-index: 5;
+    right: 430px; 
+    top: 490px;
+}
+
+.smallPopcornPhone {
+    height: 400px;
+    position: absolute;
+    z-index: 5;
+    right: 500px; 
+    top: 300px;
+}
+
+.tagIcon {
+    margin-right: 20px;
+}
+
+.twitterBox {
+    height: 450px;
+    width: 300px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.phoneBox {
+    height: 300px;
+}
+
