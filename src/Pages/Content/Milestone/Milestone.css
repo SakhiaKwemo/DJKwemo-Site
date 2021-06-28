@@ -1,0 +1,36 @@
+.diaryBox1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; 
+    height: 1000px; 
+    width: 100%; 
+    color: white;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.diaryBox1 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    font-family: 'Russo One', sans-serif;
+}
+
+.diaryBox1 p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.diaryBox1 text {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
