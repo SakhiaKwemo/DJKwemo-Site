@@ -1,0 +1,144 @@
+.playerContainerB {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(59, 4, 22);
+    position: sticky;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 240px;
+    border-top-width: 5px;
+    border-top-style:solid;
+    border-top-color: rgb(233, 135, 178); 
+}
+
+.playerTitle {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.playerText {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+.playerVideo {
+    height: 400px;
+    display: none;
+}
+
+.titleBox {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    padding-bottom: 10px;
+    margin-top: 20px
+}
+
+.sliderTimer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 52%;
+    margin-bottom: 10px;
+}
+
+.leftBox {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.rightBox {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.sliderText {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.artisttitle {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Red Rose'; 
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.songtitle {
+    font-size: 25px;
+    color: white;
+    font-family: 'Red Rose';
+}
+
+/*
+CSS For input
+
+.sliderBox {
+    width: 100%; 
+    background-color: violet;
+}
+*/
+
+
+.inputB{                                  /*overall track*/
+    -webkit-appearance: none;
+    width: 800px;
+    height: 12px;
+    background: rgb(238, 238, 238);
+    border-radius: 135px;
+    overflow: hidden;
+}
+
+.inputB::-webkit-slider-runnable-track { /*track styling*/
+    width: 800px;
+    height: 12px;
+    background: rgb(250, 248, 249);
+    border: none;
+    border-radius: 135px;
+}
+
+.inputB::-webkit-slider-thumb { /*thumb styling*/
+    -webkit-appearance: none;
+    border: none;
+    height: 15px;
+    width: 15px;
+    margin-top: -1.5px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(138, 14, 56);
+    background: rgb(247, 247, 247);
+    box-shadow: -407px 0 0 400px rgb(138, 14, 56);
+}
+
+/*
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track { 
+    background: rgb(131, 49, 49);
+    border-radius: 20px;
+}
+*/
+
+
+
