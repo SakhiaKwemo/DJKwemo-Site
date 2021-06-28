@@ -1,0 +1,144 @@
+.playerContainer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(54, 8, 50);
+    position:sticky;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 240px;
+    border-top-width: 5px;
+    border-top-style:solid;
+    border-top-color: rgb(233, 135, 178); 
+}
+
+.playerVideo {
+    display: none;
+}
+
+.titleBoxM {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sliderTimer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 52%;
+    margin-bottom: 10px;
+}
+
+.leftBox {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.rightBox {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.sliderText {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.artisttitleM {
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Red Rose'; 
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.songtitleM {
+    font-size: 22px;
+    color: white;
+    font-family: 'Red Rose';
+}
+
+#sliderArrow {
+    position: absolute; 
+    left: 190px;
+    animation-name: slider;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/*
+CSS For input
+
+.sliderBox {
+    width: 100%; 
+    background-color: violet;
+}
+*/
+
+
+.inputM{                                  /*overall track*/
+    -webkit-appearance: none;
+    width: 800px;
+    height: 12px;
+    background: rgb(238, 238, 238);
+    border-radius: 135px;
+    overflow: hidden;
+}
+
+.inputM::-webkit-slider-runnable-track { /*track styling*/
+    width: 800px;
+    height: 12px;
+    background: rgb(250, 248, 249);
+    border: none;
+    border-radius: 135px;
+}
+
+.inputM::-webkit-slider-thumb { /*thumb styling*/
+    -webkit-appearance: none;
+    border: none;
+    height: 15px;
+    width: 15px;
+    margin-top: -1.5px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(104, 6, 104);
+    background: rgb(247, 247, 247);
+    box-shadow: -407px 0 0 400px rgb(104, 6, 104);
+}
+
+/*
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track { 
+    background: rgb(131, 49, 49);
+    border-radius: 20px;
+}
+*/
+
+/*animation */
+
+@keyframes slider {
+    0%   {    bottom: 170px; }
+    25% {    bottom: 180px; }
+    50%   {    bottom: 170px; }
+    75% {    bottom: 180px; }
+    100%   {    bottom: 170px; }
+}
+
