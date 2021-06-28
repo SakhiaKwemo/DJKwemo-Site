@@ -1,0 +1,39 @@
+.ToursBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 900px;
+    width: 100%; 
+}
+
+.smallTour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    background-color: rgb(46, 0, 46);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  rgb(233, 135, 178); 
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding: 20px
+
+}
+
+.tourTitle {
+    font-size: 65px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.tourP {
+    font-size: 30px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
