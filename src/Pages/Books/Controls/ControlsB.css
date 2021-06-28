@@ -1,0 +1,34 @@
+.controlContainer {
+    display: flex;
+    flex-Direction: 'row';
+    align-Items: 'center';
+    justify-Content: 'center';
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+}
+.insideBoxB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.pauseControl23 {
+    height: 75px;
+    margin: 3px;
+    opacity: 50%;
+}
+
+.skipControl {
+    height: 80px;
+    margin: 3px;
+}
+
+.secondaryControl {
+    height: 22px;
+}
+.off {
+    opacity: 0.30,
+};
