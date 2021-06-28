@@ -1,0 +1,47 @@
+.Footer2Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    position: sticky;
+    bottom: 0;
+    margin-top: -80px;
+    z-index: 10; 
+}
+
+.Footer2T {
+    display: flex;
+    height: 80px; 
+    width: 150px;
+    padding: 20px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(194, 78, 78);  
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: rgb(194, 78, 78); 
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(194, 78, 78);  
+}
+
+.Footer2B {
+    display: flex;
+    height: 80px; 
+    width: 100%;
+    padding: 20px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(194, 78, 78); 
+}

@@ -1,0 +1,91 @@
+.wtBlock2 {
+    display: flex; 
+    height: 100%;
+    width: 100%; 
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    filter: blur(5px);
+  }
+
+  .wtBlock3 {
+    display: flex; 
+    height: 100%;
+    width: 100%; 
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+.sloganBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px; 
+    width: 100%;
+    background-color: black;
+    margin-top: -25px;
+    flex-direction: column;
+    background: radial-gradient(ellipse at center,  #312222  20%, #000000 70%);
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+.sloganBox h1{
+    font-size: 100px;
+    font-family: 'Impact';
+    color: white;
+}
+
+.sloganBox text{
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+}
+
+.LyrixxBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px; 
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.LyrixxBox h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.LyrixxVideo {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.LyrixxVideo2 {
+    position: fixed;
+    top: 8%;
+    right: 32%;
+    height: 700px;
+    width: 700px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    z-index: 2;
+}
+
+.LyrixxVideo:hover {
+    opacity: 80%;
+}

@@ -1,0 +1,363 @@
+#MusicBox2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#MusicBox3 {
+    filter:brightness(0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.musicTitle2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 125px;
+}
+
+.musicTitle2 text {
+    font-size: 65px; 
+    font-weight: bold; 
+    text-decoration: underline; 
+    font-family: 'Russo One', sans-serif;
+    color:rgb(194, 78, 78);
+}
+
+.streamBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-style: solid; 
+    border-color: rgb(194, 78, 78);
+    border-width: 5px;
+    width: 100%; 
+    height: 100%;
+    background-color: black;
+}
+
+.displayBoxB2 {
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.choiceOptionB2 {
+    background-color: rgb(34, 34, 34);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color:  white; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.choiceOptionB2:hover {
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(194, 78, 78);
+}
+
+#ArcadeBox4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    border-bottom-style: solid; 
+    border-bottom-width: 5px; 
+    border-bottom-color: rgb(194, 78, 78);
+    margin-bottom: 30px;
+}
+
+#ArcadeBox4 text{
+    font-size: 35px;
+    color: rgb(194, 78, 78);
+    font-family: 'Russo One', sans-serif;
+}
+
+.appContainer {
+    position: fixed;
+    top: 1.5%;
+    right: 26%;
+    height: 800px;
+    width: 800px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    z-index: 20;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.freestyleWords {
+    color: white; 
+    font-size: 100px;
+    font-family: 'Russo One', sans-serif;
+    height: 25%;
+}
+
+.countdown {
+    height: 20%;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.freestyleLogo {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.appBox {
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.appBox:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.emptyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+
+.emptySlot4 {
+    height: 120px;
+    width: 150px;
+    background-color: black;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptySlot4 text{
+    color: white; 
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.emptySlot {
+    height: 120px;
+    width: 150px;
+    background-color: black;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptySlot text{
+    color: white; 
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.emptySlot2 {
+    height: 180px;
+    width: 200px;
+    background-color: black;
+    border-radius: 25px;
+    border-color: rgb(253, 253, 253);
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptySlot2 text{
+    color: white; 
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.appContainer h1{ 
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    position: fixed;
+    top: 16%;
+    right: 27.5%;
+}
+
+.XButton {
+    position: fixed;
+    top: 5%;
+    right: 27.5%;
+    cursor: pointer;
+}
+
+.SyncButton {
+    position: fixed;
+    top: 15%;
+    right: 63%;
+    cursor: pointer;
+}
+
+.BackButton {
+    position: fixed;
+    top: 5%;
+    right: 63%;
+    cursor: pointer;
+}
+
+.hitBox {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.yellowButton1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 1000px;
+    border-color: gold;
+    border-style: solid;
+    border-width: 3px;
+    height: 50px; 
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+.yellowButton2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    border-radius: 1000px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    height: 50px; 
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+.yButton2{
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+}
+
+.yButton1{
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+    color: gold; 
+    animation-name: hit;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hit {
+    0%   {    opacity: 100%; }
+    25% {    opacity: 75%; }
+    50%   {    opacity: 100%; }
+    75% {    opacity: 75%; }
+    100%   {    opacity: 100%; }
+}
+
+.BackButton:hover {
+    animation-name: goback;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goback {
+    0%   {    right: 63%; }
+    25% {    right: 64%; }
+    50%   {    right: 63%; }
+    75% {    right: 64%; }
+    100%   {    right: 63%; }
+}
+
+.inputK{                                  /*overall track*/
+    -webkit-appearance: none;
+    width: 500px;
+    height: 20px;
+    background: rgb(238, 238, 238);
+    border-radius: 135px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.inputK::-webkit-slider-runnable-track { /*track styling*/
+    width: 800px;
+    height: 12px;
+    background: rgb(250, 248, 249);
+    border: none;
+    border-radius: 135px;
+}
+
+.inputK::-webkit-slider-thumb { /*thumb styling*/
+    -webkit-appearance: none;
+    border: none;
+    height: 35px;
+    width: 35px;
+    margin-top: -12.5px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    background: rgb(128, 128, 128);
+    box-shadow: -407px 0 0 400px rgb(128, 128, 128);
+}
