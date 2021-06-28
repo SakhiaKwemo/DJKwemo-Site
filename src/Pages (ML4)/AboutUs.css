@@ -1,0 +1,117 @@
+.AboutMeBox2 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.earlyLife2 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 300px; 
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.earlyLife3 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 300px; 
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.lifeLine1 {
+    height: 200px;
+    width: 10px; 
+    background-color: rgb(224, 110, 110);
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.LifeText3 {
+    font-size: 45px;
+    color: rgb(224, 110, 110);
+    font-family: 'Russo One', sans-serif;
+}
+
+.LifeP1 {
+    font-size: 27px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 0 0 20px rgb(194, 78, 78),  0 0 20px rgba(10, 175, 230, 0);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-right-color: rgb(224, 110, 110);
+    border-right-style: solid;
+    border-right-width: 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.LifeP1:hover {
+    color:rgb(224, 110, 110);
+}
+
+.LifeP2 {
+    font-size: 27px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 0 0 20px rgb(194, 78, 78),  0 0 20px rgba(10, 175, 230, 0);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left-color: rgb(224, 110, 110);
+    border-left-style: solid;
+    border-left-width: 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+.LifeP2:hover {
+    color:rgb(224, 110, 110);
+}
+
+.LifeBox {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px; 
+    height: 500px;
+    padding: 20px;
+}
+
+.LifeImageA1 {
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 830px; 
+    width: 520px; 
+    margin-top: 20px;
+}
+
+.LifeImageA2 {
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 430px; 
+    width: 480px; 
+    margin-top: 20px;
+}
