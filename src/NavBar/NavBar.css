@@ -1,0 +1,71 @@
+
+  .Nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("/images/dazzle.png");
+    background-position-x: center;
+    background-position-y: 47%;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color:  rgb(194, 78, 78); 
+    height: 340px;
+    width: 100%; 
+  }
+  .NavBox1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 425px;  
+    border-top-style: groove;
+    border-left-style: groove;
+    border-color: rgb(194, 78, 78);
+    border-width: 5px;
+    border-top-left-radius: 10px;
+    margin-right: -20px;
+  }
+  .NavBox2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 425px;  
+    border-top-style: groove;
+    border-left-style: groove;
+    border-color: rgb(194, 78, 78);
+    border-width: 5px;
+    border-top-right-radius: 10px;
+    margin-left: -20px;
+  }
+  .tabOption {
+    font-size: 22px;
+    color: black;   
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    border-right-style: solid;
+    border-right-color: rgb(194, 78, 78);
+    border-right-width: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .navIcon {
+    margin-right: 10px;
+  }
+
+  .navIcon2 {
+    margin-right: 3px;
+  }
+
+.tabOption:hover {
+  color:white;
+  background-color: rgb(46, 0, 46);
+  box-shadow: 0 0 45px rgb(233, 135, 178); 
+  text-decoration: none; 
+}
