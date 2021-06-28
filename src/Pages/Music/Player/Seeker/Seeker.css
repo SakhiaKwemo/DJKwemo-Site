@@ -1,0 +1,105 @@
+/*.sliderBox {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.leftBox {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.middleBox {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 4500px;
+    padding-bottom: 20px;
+}
+
+.rightBox {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.sliderText {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sliderTimer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.artisttitle {
+    font-size: 27px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Red Rose'; 
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.songtitle {
+    font-size: 27px;
+    color: white;
+    font-family: 'Red Rose';
+}
+
+
+
+
+/*
+CSS For input
+
+.sliderBox {
+    width: 100%; 
+    background-color: violet;
+}
+
+
+
+
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 450px;
+    height: 15px;
+    background: #ddd;
+    border: none;
+    border-radius: 15px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: red;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+*/
