@@ -1,0 +1,119 @@
+.FooterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    position: sticky;
+    bottom: 0;
+    margin-top: -80px;
+    z-index: 10; 
+}
+.FooterT {
+    display: flex;
+    height: 80px; 
+    width: 380px;
+    padding: 20px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/dazzle.png"); 
+    background-position-y: 17%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(233, 135, 178); 
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: rgb(233, 135, 178); 
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(233, 135, 178); 
+}
+.FooterB {
+    display: flex;
+    height: 80px; 
+    width: 100%;
+    padding: 20px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/dazzle.png"); 
+    background-position-y: 17%;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(233, 135, 178); 
+}
+.logoContainer {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-self: stretch;
+}
+.logoContainer2 {
+    display: flex;
+    width: 10%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-self: stretch;
+}
+.FooterText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4500px;
+    margin-right: 10px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Play', sans-serif;
+}
+.iconContainer {
+    display: flex;
+    height: 50px; 
+    width: 50px; 
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+.iconContainer2 {
+    display: flex;
+    height: 50px; 
+    width: 50px; 
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.logo {
+    height: 55px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.instagram {
+    height: 80%
+}
+.youtube {
+    height: 95%;
+    width: 95%; 
+    margin-top: 3px
+}
+.tiktok {
+    height: 80%;
+    border-radius: 5px 
+}
+.linkedin {
+    height: 80%
+}
+.facebook {
+    height: 95%; 
+}
+.twitter {
+    height: 80%;
+}
+.snapchat{
+    height: 100%
+}
