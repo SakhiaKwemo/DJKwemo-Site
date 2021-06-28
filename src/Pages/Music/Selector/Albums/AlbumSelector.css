@@ -1,0 +1,113 @@
+#AlbumBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+#AlbuminputBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    padding-left: 100px;
+    border-bottom-style: solid; 
+    border-bottom-width: 5px; 
+    border-bottom-color: rgb(233, 135, 178);
+
+}
+
+#AlbuminputBox text{
+    font-size: 35px;
+    color: rgb(233, 135, 178); 
+    font-family: 'Russo One', sans-serif;
+    margin-right: 100px; 
+}
+
+#searchBar2 {
+    color: white;
+    padding-left: 40px; 
+    padding-right: 1px;
+    font-size: 20px; 
+    font-weight: bold; 
+    font-family: 'Red Rose'; 
+    background-color: rgb(56, 0, 51); 
+    border-radius: 10px; 
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: white;
+    width: 325px;
+    height: 35px;
+    margin-left: -28px; 
+}
+
+#searchIcon2 {
+    z-index: 1; 
+}
+
+.displayAlbumBoxRow {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    grid-template-columns: auto auto auto auto;
+    width: 100%; 
+    height: 280px; 
+    margin-top: 10px;
+}
+
+.displayAlbumImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    background-color: rgb(31, 1, 28); 
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1px;
+}
+
+.displayAlbumImage text{
+    color: white; 
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Red Rose'; 
+}
+
+
+.displayAlbumImage p{
+    color: white; 
+    font-size: 25px;
+    font-family: 'Red Rose'; 
+}
+
+.imageAlbumOptions {
+    height: 280px;
+    width: 280px;
+    border-radius: 5px;
+    border-style: solid; 
+    border-width: 3px; 
+    border-color: white; 
+    margin-right: 15px; 
+    margin-left: 15px;  
+    margin-bottom: 20px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imageAlbumOptions:hover {
+    opacity: 50%;
+}

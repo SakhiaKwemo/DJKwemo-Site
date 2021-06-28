@@ -1,0 +1,122 @@
+#AlbumPlayerBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+#AlbumPlayerinputBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 335px;
+    border-bottom-style: solid; 
+    border-bottom-width: 2px; 
+    border-bottom-color: pink;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+#albumPlayerImage {
+    height: 300px; 
+    width: 300px; 
+    border-radius: 5px;
+    border-style: ridge;
+    border-width: 3px; 
+    border-color: white;
+}
+
+#albumPlayerInfoBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; 
+    height: 300px;
+    width: 100%;
+}
+
+#albumPlayerTitle {
+    color: white; 
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#albumPlayerDescription {
+    color: white; 
+    font-size: 20px; 
+    height: 100%;  
+    padding: 20px;
+    padding-left: 50px; 
+    padding-right: 50px; 
+}
+
+.albumButton {
+    height: 50px; 
+    width: 170px; 
+    background-color: white; 
+    color: purple; 
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px
+}
+
+.displayAlbumList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-width: 2px; 
+    border-bottom-color: pink;
+    width: 100%;
+    height: 75px; 
+}
+
+.displayAlbumList:hover {
+    background-color: black;
+}
+
+.displayAlbumList text{
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Red Rose'; 
+    margin-right: 10px
+}
+
+
+.displayAlbumList p{
+    color: white; 
+    font-size: 20px;
+    font-family: 'Red Rose'; 
+    margin-bottom: 0px;
+    margin-right: 15px; 
+}
+
+
+#backbutton {
+    position: absolute;
+    margin-top: 20px;
+    animation-name: back;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes back {
+    0%   {    right: 100px; }
+    25% {    right: 90px; }
+    50%   {    right: 100px; }
+    75% {    right: 90px; }
+    100%   {    right: 100px; }
+}
+
